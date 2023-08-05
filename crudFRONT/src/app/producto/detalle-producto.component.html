@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row mt-5 pruebax" *ngIf="producto">
+        <div class="col-md-4 mx-auto pruebax">
+          <div class="card mx-auto pruebax" style="width: 18em">
+            <div class="card-header text-center">
+              <strong>Detalle Producto</strong>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><b>ID: </b>{{ producto.id }}</li>
+              <li class="list-group-item"><b>Nombre: </b>{{ producto.nombre }}</li>
+              <li class="list-group-item"><b>Precio: </b> {{ producto.precio }}</li>
+            </ul>
+            <div class="card-fouter d-grid gap-4 mt-4">
+              <button class="btn btn-outline-primary" (click)="volver()">
+                <i class="fa fa-arrow-alt-circle-left"></i> Volver
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+

@@ -1,0 +1,14 @@
+a{
+text-decoration: none;
+}
+a:hover{
+    color: #0d6efd !important;
+}
+
+p{
+    font-size:1em;
+}
+
+i{
+    font-size:2.5em;
+}
